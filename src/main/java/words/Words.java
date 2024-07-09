@@ -9,7 +9,6 @@ public class Words {
             .map(word -> word.replaceAll("[^a-zA-Z]", "").toLowerCase())
             .distinct()
             .toList();
-        return null;
     }
 }
 
