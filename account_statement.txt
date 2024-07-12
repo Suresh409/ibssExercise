@@ -1,0 +1,12 @@
+Account Statement:
+==================
+Name: Bob Smith
+Account: 12345678
+Balance: 124.45
+Transactions:
+Type       Amount    
+INIT       200.0     
+DEP1       100.0     
+DEP2       450.0     
+DEP3       50.0      
+CHQ001     675.55    
