@@ -18,7 +18,7 @@ public class AccountSteps {
 
     Account account = new Account();
     StatementGenerator generator;
-    Scenario scenario;
+    static Scenario scenario;
 
     @Before
     public void beforeStep(Scenario scenario) {
