@@ -35,4 +35,10 @@ You will need to pass in the path to a chrome driver.
 4. Password Change - Complete the feature file to describe the scenarios required to test a standard 'password change'
 functionality. It can be assumed there are a few rules that the new password must comply with. You must specify the
 current username and password before being allowed to enter a new password and confirm the new password by re-typing
-the same. You DO NOT need to implement any steps.
+the same. You DO NOT nee§ 1d to implement any steps.
+
+//Use below command to run the tests by pasing the chromedriver path
+
+mvn test -Dcucumber.filter.tags="@regression1" -Dwebdriver.chrome.driver=src/test/Drivers/chromedriver
+
+
